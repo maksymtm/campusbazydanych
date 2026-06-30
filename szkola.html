@@ -1,7 +1,17 @@
-<html lang="pl-PL" data-theme="spnc_light" style="transform: none;"><head itemscope="" itemtype="http://schema.org/WebSite"><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+<html lang="pl" data-theme="spnc_light" style="transform: none;"><head itemscope="" itemtype="http://schema.org/WebSite"><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		<style>
+			:focus-visible {
+				outline: 3px solid #005fcc;
+				outline-offset: 2px;
+			}
+			a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+				outline: 3px solid #005fcc;
+				outline-offset: 2px;
+			}
+		</style>
 		<style type="text/css">
     .header-7.header-sidebar .spnc-custom .spnc-header-logo
     {
@@ -1218,8 +1228,9 @@ mail: <a href="mailto:z.sielanko@bona-agra.pl">z.sielanko@bona-agra.pl</a>
 												<div class="form-spnc-container">
 													<form method="get" id="searchform" autocomplete="off" class="search-form" action="https://tm1.edu.pl/">
 														<div class="search-results-container"></div>
-														<input autofocus="" type="search" class="search-field" placeholder="Search" value="" name="s" id="s">
-														<input type="submit" class="search-submit" value="Search">
+														<label class="screen-reader-text" for="s">Szukaj na stronie</label>
+															<input autofocus="" type="search" class="search-field" placeholder="Szukaj" value="" name="s" id="s">
+														<input type="submit" class="search-submit" value="Szukaj">
 													</form>
 												</div>
 											</li>
